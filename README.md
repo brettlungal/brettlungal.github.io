@@ -32,9 +32,9 @@
 * open a web browser and in the navigation bar enter "localhost:4000"
 
 ## More Resources
-* [https://www.markdowntutorial.com/](Markdown Tutorial)
-* Purchase [https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS](Andrew Etters Book)
-* [https://jekyllrb.com/docs/](Jekyll docs)
+* [Markdown Tutorial](https://www.markdowntutorial.com/)
+* Purchase [Andrew Etters book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+* [Jekyll docs](https://jekyllrb.com/docs/)
 
 ## Authors and Acknowledgement
 * Brett Lungal
