@@ -2,6 +2,7 @@
 layout: home
 list_title: ' '
 ---
+# Brett Lungal
 brettlungal@gmail.com | github.com/brettlungal | www.brettlungal.com | 204-797-4401
 ## Industry Experience
 ___
