@@ -6,10 +6,10 @@ list_title: ' '
 brettlungal@gmail.com | github.com/brettlungal | www.brettlungal.com | 204-797-4401
 ## Industry Experience
 ___
-**QDoc Inc** -
-Full-Stack Software Developer 
+**QDoc Inc**
+<div style="float:right">September 2021 - Current</div>
 
-September 2021 - Current
+FullStack Software Developer
 * Utilize React to create accessible, user friendly functional components that use backend logic created with AWS API-Gateway, Lambda and DynamoDB
 * Employ AWS Amplify for deployment of application frontend and backend resources in the cloud
 * Architect large features in project for cost effective implementation and secure backend to frontend data transfer
@@ -17,10 +17,10 @@ September 2021 - Current
 * Build out billing system for physicians to bill for patients they see in the application
 * Attend AWS organized Amplify immersion day for a deeper understanding of AWS Amplify capabilities
 
-**TC Energy** -
-Software Developer Co-op
+**TC Energy**
+<div style="float:right">May 2020 - September 2021</div>
 
-May 2020 - September 2021
+Software Developer Co-op
 * Developed the Document Reference Analyzer application in Python, NodeJS, Gremlin and SQL to map references between documents saving the company $4 million
 * Assisted in development, deployment, maintenance, and feature enhancements of the MAOP Records Search tool with cost avoidance of over $20 million
 * Explore new AWS technologies creating proof of concepts to automate manual processes
@@ -68,6 +68,7 @@ verification. The user logs the hours they worked, which are saved in a database
 
 ## Education
 ___
-**B.Sc. Computer Science Major (Co-op)** - January 2017 - May 2022
+<div style="float:right">January 2017 - May 2022</div>
 
+**B.Sc. Computer Science Major (Co-op)**
 University of Manitoba
