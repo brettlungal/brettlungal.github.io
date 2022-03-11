@@ -71,4 +71,5 @@ ___
 <div style="float:right">January 2017 - May 2022</div>
 
 **B.Sc. Computer Science Major (Co-op)**
+
 University of Manitoba
