@@ -61,8 +61,8 @@
 * Group members
 
 ## FAQs (these can change)
-    * My jekyll theme appears running locally but not when hosted on github pages?
-        * This is a common issue when pushing a jekyll project to github pages and the issue comes from the _config.yml file
-        * To fix this issue you must change the "url" field to be the url of your github page. Example: url: "username.github.io"
-        * You must also set the baseurl value to an empty string. Example baseurl: ""
-    * Why is my resume not showing up?
+* My jekyll theme appears running locally but not when hosted on github pages?
+    * This is a common issue when pushing a jekyll project to github pages and the issue comes from the _config.yml file
+    * To fix this issue you must change the "url" field to be the url of your github page. Example: url: "username.github.io"
+    * You must also set the baseurl value to an empty string. Example baseurl: ""
+* Why is my resume not showing up?
