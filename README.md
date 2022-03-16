@@ -1,5 +1,8 @@
 # COMP3040-Assignment-2
 
+## Introduction
+* This is a static website built using jekyll to showcase my resume for COMP3040 A01 Winter 2022
+
 ## Prerequisites
 * Visual Studio Code
 * Github Account
@@ -53,8 +56,8 @@
 
 ## More Resources
 * [Markdown Tutorial](https://www.markdowntutorial.com/)
-* Purchase [Andrew Etters book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
-* [Jekyll docs](https://jekyllrb.com/docs/)
+* [Modern Technical Writing: An Introduction to Software Documentation by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+* [Jekyll Documentation](https://jekyllrb.com/docs/)
 
 ## Authors and Acknowledgement
 * Brett Lungal
