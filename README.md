@@ -1,9 +1,17 @@
 # COMP3040-Assignment-2
 
 ## Prerequisites
-* a point
+* Visual Studio Code
+* Github Account
+* Windows 10/11
 
 ## Instructions
+
+* ### create git repo
+* navigate to the [Github Website](https://github.com/)
+* On the left hand side of the screen click the green button that says "New"
+* Name the repository username.github.io where username is your github username. Example: my username is brettlungal so my repository name is brettlungal.github.io
+* Select "create README.md" and create the repository
 
 * ### Step 1 - Install Ruby
 * Navigate to the [RubyInstaller](https://rubyinstaller.org/downloads/) and download the latest version of ruby x64 with devkit
@@ -30,6 +38,9 @@
 * run the command "bundle add webrick"
 * run the command bundle exec jekyll serve
 * open a web browser and in the navigation bar enter "localhost:4000"
+
+* ### Step 5 - Push The Project To Git
+* 
 
 ## More Resources
 * [Markdown Tutorial](https://www.markdowntutorial.com/)
