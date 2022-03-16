@@ -31,7 +31,7 @@
 * ### Step 2 - Install Jekyll
     * Run the following command to install jekyll with the gem package manager
         * ```console
-            gem install jekyll bunder```
+            gem install jekyll bunder ```
     * type "Jekyll -v" to verify jekyll was installed correctly
 
 * ### Step 3 - Create New Jekyll Project
