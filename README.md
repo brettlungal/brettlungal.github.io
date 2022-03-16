@@ -33,7 +33,8 @@
         * ```console
             gem install jekyll bunder ```
     * Verify jekyll was installed correctly with the following command
-        * ```console jekyll -v ```
+        * ```console 
+            jekyll -v ```
 
 * ### Step 3 - Create New Jekyll Project
     * cd into the directory containing your markdown files you want to host using jekyll
