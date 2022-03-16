@@ -29,10 +29,9 @@
     * type "ruby -v" to verify ruby is setup corrctly, and "gem -v" to verify gem is setup correctly
 
 * ### Step 2 - Install Jekyll
-    * type "gem install jekyll bundler" and press enter to install jekyll
+    * Run the following command to install jekyll with the gem package manager
         * ```console
-            gem install jekyll bunder
-        ```
+            gem install jekyll bunder```
     * type "Jekyll -v" to verify jekyll was installed correctly
 
 * ### Step 3 - Create New Jekyll Project
