@@ -40,7 +40,12 @@
 * open a web browser and in the navigation bar enter "localhost:4000"
 
 * ### Step 5 - Push The Project To Git
-* 
+* in a CLI cd'd into the directory that contains your jekyll project run the command "git init"
+* run the command "git add ."
+* run the command git commit -m "commit project to repo"
+* git branch -M main
+* git remote add origin https://github.com/brettlungal/brettlungal.github.io.git
+* git push -u origin main
 
 ## More Resources
 * [Markdown Tutorial](https://www.markdowntutorial.com/)
