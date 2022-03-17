@@ -48,13 +48,13 @@
 * ### Step 3 - Install Jekyll
     * #### For Windows
         1. Run the following command to install jekyll with the gem package manager
-        ```bash
-        gem install jekyll bunder 
-        ```
+            ```bash
+            gem install jekyll bunder 
+            ```
         2. Verify jekyll was installed correctly with the following command
-        ```bash 
-        jekyll -v 
-        ```
+            ```bash 
+            jekyll -v 
+            ```
     * #### For MacOS
         1. Install gem using the Gem package manager with the following command
             ```bash
