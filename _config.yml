@@ -28,7 +28,7 @@ url: "https://brettlungal.github.io" # the base hostname & protocol for your sit
 github_username:  brettlungal
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
