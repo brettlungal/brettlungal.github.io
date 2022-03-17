@@ -1,11 +1,11 @@
-I"<h1 id="brett-lungal">Brett Lungal</h1>
+I"[<h1 id="brett-lungal">Brett Lungal</h1>
 <p>brettlungal@gmail.com | github.com/brettlungal | www.brettlungal.com | 204-797-4401</p>
 <h2 id="industry-experience">Industry Experience</h2>
 <hr />
-<p><strong>QDoc Inc</strong> -
-Full-Stack Software Developer</p>
+<p><strong>QDoc Inc</strong></p>
+<div style="float:right">September 2021 - Current</div>
 
-<p>September 2021 - Current</p>
+<p>FullStack Software Developer</p>
 <ul>
   <li>Utilize React to create accessible, user friendly functional components that use backend logic created with AWS API-Gateway, Lambda and DynamoDB</li>
   <li>Employ AWS Amplify for deployment of application frontend and backend resources in the cloud</li>
@@ -15,10 +15,10 @@ Full-Stack Software Developer</p>
   <li>Attend AWS organized Amplify immersion day for a deeper understanding of AWS Amplify capabilities</li>
 </ul>
 
-<p><strong>TC Energy</strong> -
-Software Developer Co-op</p>
+<p><strong>TC Energy</strong></p>
+<div style="float:right">May 2020 - September 2021</div>
 
-<p>May 2020 - September 2021</p>
+<p>Software Developer Co-op</p>
 <ul>
   <li>Developed the Document Reference Analyzer application in Python, NodeJS, Gremlin and SQL to map references between documents saving the company $4 million</li>
   <li>Assisted in development, deployment, maintenance, and feature enhancements of the MAOP Records Search tool with cost avoidance of over $20 million</li>
@@ -68,7 +68,9 @@ verification. The user logs the hours they worked, which are saved in a database
 
 <h2 id="education">Education</h2>
 <hr />
-<p><strong>B.Sc. Computer Science Major (Co-op)</strong> - January 2017 - May 2022</p>
+<div style="float:right">January 2017 - May 2022</div>
+
+<p><strong>B.Sc. Computer Science Major (Co-op)</strong></p>
 
 <p>University of Manitoba</p>
 :ET
