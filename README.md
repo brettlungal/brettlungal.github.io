@@ -56,7 +56,7 @@
             jekyll -v 
             ```
     * #### For MacOS
-        1. Install gem using the Gem package manager with the following command
+        1. Install Jekyll using the Gem package manager with the following command
             ```bash
             gem install jekyll bundler
             ```
