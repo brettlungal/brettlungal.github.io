@@ -17,6 +17,7 @@
     2. On the left hand side of the screen click the green button that says "New"
     3. Name the repository username.github.io where username is your github username. Example: my username is brettlungal so my repository name is brettlungal.github.io
     3. Select "create README.md" and create the repository
+    > We use distributed version control for documentation because Etter says that it increases the likelihood of contribution and makes it easier to achieve.
 
 * ### Step 2 - Install Ruby
     * #### For Windows
@@ -44,32 +45,38 @@
             ```bash
             gem -v
             ```
-
-* ### Step 3 - Install Jekyll
-    * #### For Windows
-        1. Run the following command to install jekyll with the gem package manager
-            ```bash
-            gem install jekyll bunder 
-            ```
-        2. Verify jekyll was installed correctly with the following command
-            ```bash 
-            jekyll -v 
-            ```
-    * #### For MacOS
-        1. Install Jekyll using the Gem package manager with the following command
-            ```bash
-            gem install jekyll bundler
-            ```
-        2. Validate the installation was complete with the following command
-            ```bash
-            jekyll -v
-            ```
+    > Ruby exists idk
+* ### Step 3 - Install Jekyll And Create A New Jekyll Project
+    1. Install Jekyll using one of the two below instructions based on your Operating System.
+        * #### For Windows
+            1. Run the following command to install jekyll with the gem package manager
+                ```bash
+                gem install jekyll bunder 
+                ```
+            2. Verify jekyll was installed correctly with the following command
+                ```bash 
+                jekyll -v 
+                ```
+        * #### For MacOS
+            1. Install Jekyll using the Gem package manager with the following command
+                ```bash
+                gem install jekyll bundler
+                ```
+            2. Validate the installation was complete with the following command
+                ```bash
+                jekyll -v
+                ```
+    2. cd into the directory containing your markdown files you want to host using jekyll
+    3. run the command jekyll new projectName - where projectName is what you want to name your project
+    4. you'll notice the previous created a directory in the pwd named your project name - it contains all relevant files for your static website
+    5. cd into that new directory by typing cd projectName where project name is what you named your project
+    > Etter recommends using a static website generator like Jekyll because they turn lightweight, simple markup files and turn them into beautiful, functional documentation websites
 * ### Step 4 - Create New Jekyll Project
     1. cd into the directory containing your markdown files you want to host using jekyll
     2. run the command jekyll new projectName - where projectName is what you want to name your project
     3. you'll notice the previous created a directory in the pwd named your project name - it contains all relevant files for your static website
     4. cd into that new directory by typing cd projectName where project name is what you named your project
-
+    > Etter recommends these auto generated projects because they allow you do create a more complex static webpage with simple markup language documents
 * ### Step 5 - Run Your Project From LocalHost
     1. run the command "bundle add webrick"
     2. run the command bundle exec jekyll serve
@@ -87,6 +94,7 @@
         ---
         ```
     4. Replace "Your Title" with any title you would like for your webpage, the most common would be your first name and last name
+    > We use markdown because Etter suggests using a lightweight markdown language that is easy to read and write, and markdown the the most widely used markup language
 
 * ### Step 7 - Push The Project To Git
     1. in a CLI cd'd into the directory that contains your jekyll project run the command "git init"
@@ -95,9 +103,10 @@
     4. git branch -M main
     5. git remote add origin https://github.com/brettlungal/brettlungal.github.io.git
     6. git push -u origin main
-
+    >Etter says that this method of storing documentation allows all of the documents to stay up to date and in sync, as well as allows for offline work!
 * ### Step 8 - View Your Static Website On Github Pages!
     1. navigate to https://username.github.io where username is your github username to view your public static webpage!
+    > Etter says that static webpages are the best way to host documentation for people to view as it is simple to migrate, has no external dependencies, and can be updated and evolve as the product evolves. Etter noted that a pdf that someone downloads can go stale and out of date easily, thats where static webpages come to save the day!
 
 ## More Resources
 * [Markdown Tutorial](https://www.markdowntutorial.com/)
