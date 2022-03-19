@@ -29,8 +29,6 @@
         6. Type 1 to select the first installation and press enter
         7. Type 3 and press enter to select the second installation and press enter
         8. Exit the terminal window and open a new command prompt
-            * Open the start menu and search "command prompt" and run the command prompt application
-            [![Image from Gyazo](https://i.gyazo.com/26a1f37eb38f1c81b24434876b31156e.gif)](https://gyazo.com/26a1f37eb38f1c81b24434876b31156e)
         9. Enter the following commands one at a time and press enter after each to verify ruby and gem was successfully installed
             ```bash
             ruby -v
