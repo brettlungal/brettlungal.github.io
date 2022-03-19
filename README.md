@@ -1,21 +1,21 @@
 # brettlungal.github.io
 
 ## Purpose
-* The puropose of this README is to describe the practical steps of how to host and format a resume using Markdown, VS Code, Jekyll, and Github Pages
+* The puropose of this README is to describe the practical steps of how to host and format a resume using Markdown, VS Code, Jekyll, and GitHub Pages
 
 ## Prerequisites
 * A [Markdown](https://www.markdowntutorial.com/) formatted resume
 * Visual Studio Code
-* Github Account/ Saved Github Credentials
+* GitHub Account/ Saved GitHub Credentials
 * Windows 10/11 or MacOS
 * knowledge of CLI operation
 
 ## Instructions
 
 * ### Step 1 - Create a Git Repo
-    1. Navigate to the [Github Website](https://github.com/)
+    1. Navigate to the [GitHub Website](https://github.com/)
     2. Click the green button on the left side of the screen that says "New"
-    3. Name the repository username.github.io where username is your github username. Example: my username is brettlungal so my repository name is brettlungal.github.io
+    3. Name the repository username.github.io where username is your GitHub username. Example: my username is brettlungal so my repository name is brettlungal.github.io
     3. Select "create README.md" and create the repository
     > We use distributed version control for documentation because Etter says that it increases the likelihood of contribution and makes it easier to achieve.
 
@@ -103,17 +103,17 @@
     > We use markdown because Etter suggests using a lightweight markdown language that is easy to read and write, and markdown the the most widely used markup language
 
 * ### Step 7 - Upload Jekyll Files To GitHub
-    * #### Option 1 - Manually upload files to Github
-        1. Navigate your browser to the github repo you created in step 1
+    * #### Option 1 - Manually upload files to GitHub
+        1. Navigate your browser to the GitHub repo you created in step 1
         2. Click "upload an existing file" in the blue banner displayed on screen
             [![Image from Gyazo](https://i.gyazo.com/1518435690b189946346e9e37ddd81e9.gif)](https://gyazo.com/1518435690b189946346e9e37ddd81e9)
         3. Open your computers file explorer and find your Jekyll project files
-        4. Select all of the files in the folder, then click and drag them to the drop zone in github
+        4. Select all of the files in the folder, then click and drag them to the drop zone in GitHub
             [![Image from Gyazo](https://i.gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b.gif)](https://gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b)
-        5. Click "Commit changes" to complete the upload to Github
+        5. Click "Commit changes" to complete the upload to GitHub
 
-    * #### Option 2 - Push Files Using Github CLI
-        > :warning: **Warning**: This is a much more advanced way of adding files to Github and requires Github CLI to be installed and configured beforehand.
+    * #### Option 2 - Push Files Using GitHub CLI
+        > :warning: **Warning**: This is a much more advanced way of adding files to GitHub and requires GitHub CLI to be installed and configured beforehand.
         1. Run the following command to initialize git in your Jekyll project folder
             ```bash
             git init
@@ -130,17 +130,17 @@
             ```bash
             git branch -M main
             ```
-        5. Replace "githubUsername" with your Github username and run the following command to link your folder to your git repo you created in step 1
+        5. Replace "githubUsername" with your GitHub username and run the following command to link your folder to your git repo you created in step 1
             ```bash 
             git remote add origin https://github.com/githubUsername/githubUsername.github.io.git
             ```
-        6. Run the following command to push your Jekyll static website to Github to be hosted publicly
+        6. Run the following command to push your Jekyll static website to GitHub to be hosted publicly
             ```bash
             git push -u origin main
             ```
     >Etter says that this method of storing documentation allows all of the documents to stay up to date and in sync, as well as allows for offline work!
-* ### Step 8 - View Your Static Website On Github Pages!
-    1. Navigate to https://username.github.io where username is your github username to view your public static webpage!
+* ### Step 8 - View Your Static Website On GitHub Pages!
+    1. Navigate to https://username.github.io where username is your GitHub username to view your public static webpage!
     [![Image from Gyazo](https://i.gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143.gif)](https://gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143)
     > Etter says that static webpages are the best way to host documentation for people to view as it is simple to migrate, has no external dependencies, and can be updated and evolve as the product evolves. Etter noted that a pdf that someone downloads can go stale and out of date easily, thats where static webpages come to save the day!
 
@@ -160,7 +160,7 @@
 
 
 ## FAQ's
-1. My jekyll theme appears running locally but not when hosted on github pages?
-    * This is a common issue when pushing a jekyll project to github pages and the issue comes from the _config.yml file. To fix this issue you must change the "url" field to be the url of your github page. Example: url: "username.github.io". You must also set the baseurl value to an empty string. Example baseurl: ""
+1. My jekyll theme appears running locally but not when hosted on GitHub pages?
+    * This is a common issue when pushing a jekyll project to GitHub pages and the issue comes from the _config.yml file. To fix this issue you must change the "url" field to be the url of your GitHub page. Example: url: "username.github.io". You must also set the baseurl value to an empty string. Example baseurl: ""
 2. Why do I need to install Ruby to do this if im not programming?
     * Jekyll is built using ruby, and ruby's package manager Gem is how we acquire the jekyll library from the internet
