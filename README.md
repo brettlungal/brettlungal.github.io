@@ -4,7 +4,7 @@
 * The puropose of this README is to describe the practical steps of how to host and format a resume using Markdown, VS Code, Jekyll, and Github Pages
 
 ## Prerequisites
-* A markdown formatted resume
+* A [Markdown](https://www.markdowntutorial.com/) formatted resume
 * Visual Studio Code
 * Github Account/ Saved Github Credentials
 * Windows 10/11 or MacOS
