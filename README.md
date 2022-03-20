@@ -137,7 +137,7 @@
     >Etter says that this method of storing documentation allows all of the documents to stay up to date and in sync, as well as allows for offline work!
 * ### Step 7 - View Your Static Website On GitHub Pages!
     1. Navigate to https://username.github.io where username is your GitHub username to view your public static webpage just as shown below!
-        <img src="_site/assets/resume.gif" width="75%">
+        <img src="_site/assets/resume.gif" width="90%">
     > Etter says that static webpages are the best way to host documentation for people to view as it is simple to migrate, has no external dependencies, and can be updated and evolve as the product evolves. Etter noted that a pdf that someone downloads can go stale and out of date easily, thats where static webpages come to save the day!
 
 ## More Resources
