@@ -74,7 +74,7 @@
         cd projectName
         ```
     > Etter recommends using a static website generator like Jekyll because they turn lightweight, simple markup files and turn them into beautiful, functional documentation websites
-* ### Step 5 - Run Your Project From LocalHost
+* ### Step 4 - Run Your Project From LocalHost
     1. Run the following command to add webrick to your jekyll bundle.
         ```bash
         bundle add webrick
@@ -86,7 +86,7 @@
     3. Open a web browser and in the navigation bar enter "localhost:4000"
     > As previously noted, Etter emphasizes the significance of being able to use a static site generator for hosting beautiful documentation. This step allows you to view your changes to your jekyll website locally before commiting them to git to be hosted publicly. Allows for quicker development time when writing your markdown formatted files.
 
-* ### Step 6 - Add Your Markdown Resume To Jekyll Main Page
+* ### Step 5 - Add Your Markdown Resume To Jekyll Main Page
     1. Navigate to the file named "index.md" in the jekyll project directory
     2. Remove all of the content in index.md and copy/paste in your markdown formatted resume into index.md
     3. Add the following content to the top lines of your index.md after pasting in your markdown formatted resume
@@ -100,7 +100,7 @@
     4. Replace "Your Title" with any title you would like for your webpage, the most common would be your first and last name.
     > We use markdown because Etter suggests using a lightweight markdown language that is easy to read and write, and markdown the the most widely used markup language
 
-* ### Step 7 - Upload Jekyll Files To GitHub
+* ### Step 6 - Upload Jekyll Files To GitHub
     * #### Option 1 - Manually upload files to GitHub
         1. Navigate your browser to the GitHub repo you created in step 1
         2. Click "upload an existing file" in the blue banner displayed on screen
@@ -137,7 +137,7 @@
             git push -u origin main
             ```
     >Etter says that this method of storing documentation allows all of the documents to stay up to date and in sync, as well as allows for offline work!
-* ### Step 8 - View Your Static Website On GitHub Pages!
+* ### Step 7 - View Your Static Website On GitHub Pages!
     1. Navigate to https://username.github.io where username is your GitHub username to view your public static webpage just as shown below!
     [![Resume Gif](https://i.gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143.gif)](https://gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143)
     > Etter says that static webpages are the best way to host documentation for people to view as it is simple to migrate, has no external dependencies, and can be updated and evolve as the product evolves. Etter noted that a pdf that someone downloads can go stale and out of date easily, thats where static webpages come to save the day!
