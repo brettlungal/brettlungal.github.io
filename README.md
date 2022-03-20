@@ -109,6 +109,7 @@
         4. Select all of the files in the folder, then click and drag them to the drop zone in GitHub
             [![Drag Files Gif](https://i.gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b.gif)](https://gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b)
         5. Click "Commit changes" to complete the upload to GitHub
+            [![Image from Gyazo](https://i.gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143.gif)](https://gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143)
 
     * #### Option 2 - Push Files Using GitHub CLI
         > :warning: **Warning**: This is a much more advanced way of adding files to GitHub and requires GitHub CLI to be installed and configured beforehand.
@@ -139,7 +140,7 @@
     >Etter says that this method of storing documentation allows all of the documents to stay up to date and in sync, as well as allows for offline work!
 * ### Step 7 - View Your Static Website On GitHub Pages!
     1. Navigate to https://username.github.io where username is your GitHub username to view your public static webpage just as shown below!
-        [![Resume Gif](https://i.gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143.gif)](https://github.com/brettlungal/brettlungal.github.io/blob/main/_site/assets/resume.gif))
+        [![Image from Gyazo](https://i.gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143.gif)](https://gyazo.com/ffd54b87897c22d9d6ccb5c8a8c7e143)
     > Etter says that static webpages are the best way to host documentation for people to view as it is simple to migrate, has no external dependencies, and can be updated and evolve as the product evolves. Etter noted that a pdf that someone downloads can go stale and out of date easily, thats where static webpages come to save the day!
 
 ## More Resources
