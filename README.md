@@ -104,7 +104,6 @@
     * #### Option 1 - Manually upload files to GitHub
         1. Navigate your browser to the GitHub repo you created in step 1
         2. Click "upload an existing file" in the blue banner displayed on screen
-            [![Image from Gyazo](https://i.gyazo.com/1518435690b189946346e9e37ddd81e9.gif)](https://gyazo.com/1518435690b189946346e9e37ddd81e9)
         3. Open your computers file explorer and find your Jekyll project files
         4. Select all of the files in the folder, then click and drag them to the drop zone in GitHub
             [![Drag Files Gif](https://i.gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b.gif)](https://gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b)
