@@ -1,35 +1,35 @@
 # brettlungal.github.io
 
 ## Purpose
-* The puropose of this README is to describe the practical steps of how to host and format a resume using Markdown, VS Code, Jekyll, and Github Pages
+* The puropose of this README is to describe the practical steps of how to host and format a resume using Markdown, VS Code, Jekyll, and GitHub Pages
 
 ## Prerequisites
-* A markdown formatted resume
+* A [Markdown](https://www.markdowntutorial.com/) formatted resume
 * Visual Studio Code
-* Github Account
+* GitHub Account
 * Windows 10/11 or MacOS
 * knowledge of CLI operation
 
 ## Instructions
 
 * ### Step 1 - Create a Git Repo
-    1. Navigate to the [Github Website](https://github.com/)
-    2. On the left hand side of the screen click the green button that says "New"
-    3. Name the repository username.github.io where username is your github username. Example: my username is brettlungal so my repository name is brettlungal.github.io
+    1. Navigate to the [GitHub Website](https://github.com/)
+    2. Click the green button on the left side of the screen that says "New"
+    3. Name the repository username.github.io where username is your GitHub username. Example: my username is brettlungal so my repository name is brettlungal.github.io
     3. Select "create README.md" and create the repository
+    > We use distributed version control for documentation because Etter says that it increases the likelihood of contribution and makes it easier to achieve.
 
 * ### Step 2 - Install Ruby
     * #### For Windows
         1. Navigate to the [RubyInstaller](https://rubyinstaller.org/downloads/) and download the latest version of ruby x64 with devkit
         2. Open the ruby installer, select "Accept This License" and press next
-        3.  Verify the path where Ruby will be installed, and make sure "Add Ruby executables to your PATH" and "Associate .rb and .rbw with this Ruby installation" are checked
+        3. Verify the path where Ruby will be installed, and make sure "Add Ruby executables to your PATH" and "Associate .rb and .rbw with this Ruby installation" are checked before continuing
         4. Select the Ruby base files and Ruby RI and HTML Documentation boxes and press install
-        5. Once Ruby is finished installing ensure "Run ridk install to setup MSYS2 and development toolchain" and click finish
-        6. Once ridk installer opens in a terminal, type 1 and press enter
-        7. Next type 3 and press enter and the installer will fetch and install further requirements
-        8. Once both are done, exit the terminal window and open a new command prompt
-            * do this by opening the start menu and searching "command prompt" and running the command prompt application
-        9. Enter the following commands one at a time and press enter after each to verify ruby and gem was successfully installed
+        5. Ensure "Run ridk install to setup MSYS2 and development toolchain" and click finish
+        6. Type 1 to select the first installation and press enter
+        7. Type 3 and press enter to select the second installation and press enter
+        8. Exit the terminal window and open a new command prompt
+        9. Enter the following commands one at a time and press enter after each to verify ruby and gem was successfully installed. A version should be returned after running each command.
             ```bash
             ruby -v
             ```
@@ -37,45 +37,56 @@
             gem -v
             ```
     * #### For MacOS
-        1. MacOS comes with Ruby and Ruby Gems pre-installed. To verify this run the following command
+        1. MacOS comes with Ruby and Ruby Gems pre-installed. To verify this run the following command. A version should be returned after running each command.
             ```bash
             ruby -v
             ```
             ```bash
             gem -v
             ```
+    > Etter emphasizes the importance of using static site generators for easily creating more complex documentation websites, Jekyll runs on the Ruby programming language and therefore requires it to be installed on your computer.
+* ### Step 3 - Install Jekyll And Create A New Jekyll Project
+    1. Install Jekyll using one of the two below instructions based on your Operating System.
+        * #### For Windows
+            1. Run the following command to install jekyll with the gem package manager
+                ```bash
+                gem install jekyll bunder 
+                ```
+            2. Verify jekyll was installed correctly with the following command
+                ```bash 
+                jekyll -v 
+                ```
+        * #### For MacOS
+            1. Install Jekyll using the Gem package manager with the following command
+                ```bash
+                gem install jekyll bundler
+                ```
+            2. Validate the installation was complete with the following command
+                ```bash
+                jekyll -v
+                ```
+    2. Run the following command to create a new Jekyll Project - replace projectName with the name of your project
+        ```bash
+        jekyll new projectName
+        ```
+    3. Change directory into the folder that jekyll just created for you that contains all of the project files
+        ```bash
+        cd projectName
+        ```
+    > Etter recommends using a static website generator like Jekyll because they turn lightweight, simple markup files and turn them into beautiful, functional documentation websites
+* ### Step 4 - Run Your Project From LocalHost
+    1. Run the following command to add webrick to your jekyll bundle.
+        ```bash
+        bundle add webrick
+        ```
+    2. Run the following command command to start the local web server to view your changes locally as you make them.
+        ```bash
+        exec jekyll serve
+        ```
+    3. Open a web browser and in the navigation bar enter "localhost:4000"
+    > As previously noted, Etter emphasizes the significance of being able to use a static site generator for hosting beautiful documentation. This step allows you to view your changes to your jekyll website locally before commiting them to git to be hosted publicly. Allows for quicker development time when writing your markdown formatted files.
 
-* ### Step 3 - Install Jekyll
-    * #### For Windows
-        1. Run the following command to install jekyll with the gem package manager
-            ```bash
-            gem install jekyll bunder 
-            ```
-        2. Verify jekyll was installed correctly with the following command
-            ```bash 
-            jekyll -v 
-            ```
-    * #### For MacOS
-        1. Install Jekyll using the Gem package manager with the following command
-            ```bash
-            gem install jekyll bundler
-            ```
-        2. Validate the installation was complete with the following command
-            ```bash
-            jekyll -v
-            ```
-* ### Step 4 - Create New Jekyll Project
-    1. cd into the directory containing your markdown files you want to host using jekyll
-    2. run the command jekyll new projectName - where projectName is what you want to name your project
-    3. you'll notice the previous created a directory in the pwd named your project name - it contains all relevant files for your static website
-    4. cd into that new directory by typing cd projectName where project name is what you named your project
-
-* ### Step 5 - Run Your Project From LocalHost
-    1. run the command "bundle add webrick"
-    2. run the command bundle exec jekyll serve
-    3. open a web browser and in the navigation bar enter "localhost:4000"
-
-* ### Step 6 - Add Your Markdown Resume To Jekyll Main Page
+* ### Step 5 - Add Your Markdown Resume To Jekyll Main Page
     1. Navigate to the file named "index.md" in the jekyll project directory
     2. Remove all of the content in index.md and copy/paste in your markdown formatted resume into index.md
     3. Add the following content to the top lines of your index.md after pasting in your markdown formatted resume
@@ -86,18 +97,48 @@
         title: Your Title
         ---
         ```
-    4. Replace "Your Title" with any title you would like for your webpage, the most common would be your first name and last name
+    4. Replace "Your Title" with any title you would like for your webpage, the most common would be your first and last name.
+    > We use markdown because Etter suggests using a lightweight markdown language that is easy to read and write, and markdown the the most widely used markup language
 
-* ### Step 7 - Push The Project To Git
-    1. in a CLI cd'd into the directory that contains your jekyll project run the command "git init"
-    2. run the command "git add ."
-    3. run the command git commit -m "commit project to repo"
-    4. git branch -M main
-    5. git remote add origin https://github.com/brettlungal/brettlungal.github.io.git
-    6. git push -u origin main
-
-* ### Step 8 - View Your Static Website On Github Pages!
-    1. navigate to https://username.github.io where username is your github username to view your public static webpage!
+* ### Step 6 - Upload Jekyll Files To GitHub
+    * #### Option 1 - Manually upload files to GitHub
+        1. Navigate your browser to the GitHub repo you created in step 1
+        2. Click "upload an existing file" in the blue banner displayed on screen
+        3. Open your computers file explorer and find your Jekyll project files
+        4. Select all of the files in the folder, then click and drag them to the drop zone in GitHub
+            [![Drag Files Gif](https://i.gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b.gif)](https://gyazo.com/0ff2d19f3a21d5ed769e9b8906c6549b)
+        5. Click "Commit changes" to complete the upload to GitHub
+    * #### Option 2 - Push Files Using GitHub CLI
+        > :warning: **Warning**: This is a much more advanced way of adding files to GitHub and requires GitHub CLI to be installed and configured beforehand.
+        1. Run the following command to initialize git in your Jekyll project folder
+            ```bash
+            git init
+            ```
+        2. Run the following command to mark all of your Jekyll files to be added to git
+            ```bash
+            git add .
+            ```
+        3. Run the following command to commit the marked files to git, and give it a message associated with the commit
+            ```bash
+            git commit -m "commit project to repo"
+            ```
+        4. Run the following command to ensure you are on the main branch of your git repo
+            ```bash
+            git branch -M main
+            ```
+        5. Replace "githubUsername" with your GitHub username and run the following command to link your folder to your git repo you created in step 1
+            ```bash 
+            git remote add origin https://github.com/githubUsername/githubUsername.github.io.git
+            ```
+        6. Run the following command to push your Jekyll static website to GitHub to be hosted publicly
+            ```bash
+            git push -u origin main
+            ```
+    >Etter says that this method of storing documentation allows all of the documents to stay up to date and in sync, as well as allows for offline work!
+* ### Step 7 - View Your Static Website On GitHub Pages!
+    1. Navigate to https://username.github.io where username is your GitHub username to view your public static webpage just as shown below!
+        <img src="_site/assets/resume.gif" width="90%">
+    > Etter says that static webpages are the best way to host documentation for people to view as it is simple to migrate, has no external dependencies, and can be updated and evolve as the product evolves. Etter noted that a pdf that someone downloads can go stale and out of date easily, thats where static webpages come to save the day!
 
 ## More Resources
 * [Markdown Tutorial](https://www.markdowntutorial.com/)
@@ -115,7 +156,7 @@
 
 
 ## FAQ's
-1. My jekyll theme appears running locally but not when hosted on github pages?
-    * This is a common issue when pushing a jekyll project to github pages and the issue comes from the _config.yml file. To fix this issue you must change the "url" field to be the url of your github page. Example: url: "username.github.io". You must also set the baseurl value to an empty string. Example baseurl: ""
+1. My jekyll theme appears running locally but not when hosted on GitHub pages?
+    * This is a common issue when pushing a jekyll project to GitHub pages and the issue comes from the _config.yml file. To fix this issue you must change the "url" field to be the url of your GitHub page. Example: url: "username.github.io". You must also set the baseurl value to an empty string. Example baseurl: ""
 2. Why do I need to install Ruby to do this if im not programming?
     * Jekyll is built using ruby, and ruby's package manager Gem is how we acquire the jekyll library from the internet

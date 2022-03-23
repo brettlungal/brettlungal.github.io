@@ -1,0 +1,75 @@
+I"3<p>brettlungal@gmail.com | github.com/brettlungal | www.brettlungal.com | 204-797-4401</p>
+<h2 id="industry-experience">Industry Experience</h2>
+<hr />
+<p><strong>QDoc Inc</strong></p>
+<div style="float:right">September 2021 - Current</div>
+
+<p>FullStack Software Developer</p>
+<ul>
+  <li>Utilize React to create accessible, user friendly functional components that use backend logic created with AWS API-Gateway, Lambda and DynamoDB</li>
+  <li>Employ AWS Amplify for deployment of application frontend and backend resources in the cloud</li>
+  <li>Architect large features in project for cost effective implementation and secure backend to frontend data transfer</li>
+  <li>Assist in onboarding new hires by pair programming to teach coding standards and company practices</li>
+  <li>Build out billing system for physicians to bill for patients they see in the application</li>
+  <li>Attend AWS organized Amplify immersion day for a deeper understanding of AWS Amplify capabilities</li>
+</ul>
+
+<p><strong>TC Energy</strong></p>
+<div style="float:right">May 2020 - September 2021</div>
+
+<p>Software Developer Co-op</p>
+<ul>
+  <li>Developed the Document Reference Analyzer application in Python, NodeJS, Gremlin and SQL to map references between documents saving the company $4 million</li>
+  <li>Assisted in development, deployment, maintenance, and feature enhancements of the MAOP Records Search tool with cost avoidance of over $20 million</li>
+  <li>Explore new AWS technologies creating proof of concepts to automate manual processes</li>
+  <li>Lead the development of various features in proof-of-concept projects</li>
+  <li>Hosted product presentations for client teams to communicate development progress</li>
+  <li>Participated in training sessions hosted by AWS to advance knowledge of AWS technologies</li>
+</ul>
+
+<h2 id="technical-skills">Technical Skills</h2>
+<hr />
+<p><strong>Languages</strong>:Python, Bash, Java, YAML, C, C++, Ruby, Applescript, JavaScript, Gremlin</p>
+
+<p><strong>Web Development</strong>:NodeJS, React, SQL, MongoDB, HTML, CSS, RESTful APIs, Bootstrap, GraphQL, Redux</p>
+
+<p><strong>Tools</strong>: AWS S3, AWS Rekognition, AWS Textract, AWS Lambda, AWS Amplify, AWS SQS, AWS API Gateway, AWS CloudFormation, AWS EC2, AWS Neptune, AWS DynamoDB, AWS DocumentDB, Google Firebase, Git, Unix, Agile, unit testing, Azure DevOps</p>
+
+<h2 id="projects">Projects</h2>
+<hr />
+<p><strong>AWS Document Text Extraction Engine</strong></p>
+
+<p>Deployed my own SAM Code Pipeline in AWS and used CloudFormation to build and deploy templates to create a
+system that accepts documents, uses AWS Textract to extract the text from the record, parse the results, and throw
+the text into an AWS OpenSearch (former Elasticsearch) domain for easy searching and understanding of data set.</p>
+
+<p><strong>Portfolio Website</strong></p>
+
+<p>Using ReactJS I bult my own portfolio website to show my skills, experience, and my personal projects. Using AWS
+Route 53 I purchased the domain and hosted the website on my own Linux server that I run from my own home.
+Project was a chance for me to learn the networking, port forwarding, and DNS requirements of hosting web-based
+applications.</p>
+
+<p><strong>NHL Desktop Widget</strong></p>
+
+<p>A simple widget designed to sit on the user’s desktop. The user can select a desired NHL team and the game scores
+are then displayed for the user, updating in real time using an NHL REST API.</p>
+
+<p><strong>Stock Spy</strong></p>
+
+<p>Android application developed in android studio which allows the user to “follow” certain stocks and set a buffer so if
+the stock price moves outside of that buffer, the user is notified.</p>
+
+<p><strong>Time Sheets</strong></p>
+
+<p>Hour management app developed for a local farmer to track the hours of his employees to simplify payroll and hour
+verification. The user logs the hours they worked, which are saved in a database that the employer has access to.</p>
+
+<h2 id="education">Education</h2>
+<hr />
+<div style="float:right">January 2017 - May 2022</div>
+
+<p><strong>B.Sc. Computer Science Major (Co-op)</strong></p>
+
+<p>University of Manitoba</p>
+:ET

@@ -6,7 +6,7 @@
 ## Prerequisites
 * A [Markdown](https://www.markdowntutorial.com/) formatted resume
 * Visual Studio Code
-* GitHub Account/ Saved GitHub Credentials
+* GitHub Account
 * Windows 10/11 or MacOS
 * knowledge of CLI operation
 
@@ -29,7 +29,7 @@
         6. Type 1 to select the first installation and press enter
         7. Type 3 and press enter to select the second installation and press enter
         8. Exit the terminal window and open a new command prompt
-        9. Enter the following commands one at a time and press enter after each to verify ruby and gem was successfully installed
+        9. Enter the following commands one at a time and press enter after each to verify ruby and gem was successfully installed. A version should be returned after running each command.
             ```bash
             ruby -v
             ```
@@ -37,7 +37,7 @@
             gem -v
             ```
     * #### For MacOS
-        1. MacOS comes with Ruby and Ruby Gems pre-installed. To verify this run the following command
+        1. MacOS comes with Ruby and Ruby Gems pre-installed. To verify this run the following command. A version should be returned after running each command.
             ```bash
             ruby -v
             ```
@@ -81,7 +81,7 @@
         ```
     2. Run the following command command to start the local web server to view your changes locally as you make them.
         ```bash
-        exec jekyll serve
+        bundle exec jekyll serve
         ```
     3. Open a web browser and in the navigation bar enter "localhost:4000"
     > As previously noted, Etter emphasizes the significance of being able to use a static site generator for hosting beautiful documentation. This step allows you to view your changes to your jekyll website locally before commiting them to git to be hosted publicly. Allows for quicker development time when writing your markdown formatted files.
